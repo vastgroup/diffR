@@ -1,8 +1,3 @@
-#!/usr/bin/env Rscript
-#
-# Author: Tim Sterne-Weiler, 2014
-# tim.sterne.weiler@utoronto.ca
-
 #  This function takes a qual and returns c(post_alpha, post_beta)
 #  Increments by prior alpha and prior distribution beta, uniform by default
 parseQual <- function(qual, prior_alpha=1, prior_beta=1) {
@@ -68,7 +63,8 @@ betaCISample <- function(alpha, beta, n = 5000) {
 
 
 ### MAKE VISUAL OUTPUT
-plotDiff <- function(inpOne, inpTwo, expOne, expTwo, maxD, medOne, medTwo, sampOneName, sampTwoName, rever ) {
+plotDiff <- function(inpOne, inpTwo, expOne, expTwo, maxD, medOne, medTwo, sampOneName, sampTwoName, rever, alphaList ) {
+  cbb <- c("#999999", "#E69F00", "#56B4E9", "#009E73", "#F0E442", "#0072B2", "#D55E00", "#CC79A7")
 
   if(rever) {   #write this better. ;-)
     curCol <- cbb[3:2]

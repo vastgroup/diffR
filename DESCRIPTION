@@ -1,0 +1,25 @@
+Package: psidiffr
+Type: Package
+Title: Differential Splicing Analysis for VAST-TOOLS
+Version: 0.1.0
+Date: 2015-07-14
+Authors@R: as.person(c(
+  "Tim Sterne-Weiler <tim.sterne.weiler@mail.utoronto.ca> [aut, cre]",
+  "Kevin Ha <k.ha@mail.utoronto.ca> [aut]",
+  "Robert Weatheritt <robert.weatheritt@utoronto.ca> [aut]"
+  ))
+Description: Bayesian inference followed by differential analysis of
+  posterior distributions with respect to PSI/PSU/PIR.
+  With replicate data, joint posterior distributions for a sample are
+  estimated from emperical posterior distributions of the
+  replicates using maximum-likelihood (MLE) fitting.
+License: What license is it under?
+LazyData: TRUE
+Depends: R (>= 3.1.0)
+Imports:
+  grid,
+  MASS,
+  reshape2 (>= 1.4),
+  ggplot2 (>= 1.0.0),
+  parallel
+Suggests: testthat
