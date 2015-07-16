@@ -1,4 +1,4 @@
-Package: psidiffr
+Package: diffR
 Type: Package
 Title: Differential Splicing Analysis for VAST-TOOLS
 Version: 0.1.0
