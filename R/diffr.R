@@ -64,9 +64,9 @@
 #' @import parallel
 #' @examples
 #' \dontrun{
-#'  diffr("INCLUSION_LEVELS.tab", "Rep1,Rep2", "Rep3,Rep4")
+#'  diffR("INCLUSION_LEVELS.tab", "Rep1,Rep2", "Rep3,Rep4")
 #' }
-diffr <- function(input, replicate_A, replicate_B,
+diffR <- function(input, replicate_A, replicate_B,
                   name_A = NULL, name_B = NULL,
                   num_lines = 10000, paired = FALSE,
                   filter = TRUE, pdf = "input.DIFF_plots",

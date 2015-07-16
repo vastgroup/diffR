@@ -1,8 +1,8 @@
 #' Differential Splicing Analysis
 #'
-#' @name psidiffr
+#' @name diffR
 #' @docType package
 #' @examples
-#' library(psidiffr)
+#' library(diffR)
 #'
 NULL
